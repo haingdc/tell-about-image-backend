@@ -108,7 +108,6 @@ function createApp(
 
   // API chuyển đổi hình ảnh sang WebP
   app.post("/convert-to-webp", async (c: Context) => {
-    console.log("[api] convert-to-webp");
     try {
       const body = await c.req.formData();
       const image = body.get("image");
