@@ -1,0 +1,25 @@
+{
+  "upload": {
+    "image": {
+      "fileSize": {
+        "enabled": {
+          "description": "Khi bật fileSize mode, sẽ giới hạn kích thước tập tin. Nếu nằm ngoài giới hạn sẽ báo lỗi",
+          "value": true
+        },
+        "minSize": 4,
+        "maxSize": 5120
+      }
+    }
+  },
+  "describe": {
+    "provider": {
+      "mock": {
+        "enabled": {
+          "description": "Khi bật mode này, nó sẽ sử dụng mock data thay vì gọi api của bên cung cấp",
+          "value": false
+        }
+      }
+    }
+  },
+  "limitInputPixels": 268402689
+}

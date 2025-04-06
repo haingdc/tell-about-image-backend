@@ -1,0 +1,12 @@
+{
+  "files": {
+    "jpegImageBase64": {
+      "fileName": "jpegImageBase64.txt",
+      "description": "Chuỗi base64 của hình ảnh jpeg được mã hóa cứng, sử dụng btoa để chuyển đổi thành chuỗi base64 và thêm tiền tố data:image/webp;base64,"
+    },
+    "14413x19225.jpg": {
+      "fileName": "14413x19225.jpg",
+      "description": "Hình ảnh JPEG có kích thước 14413x19225px - vượt quá giới hạn pixel limit của sharp là 268402689px"
+    }
+  }
+}
